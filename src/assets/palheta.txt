@@ -1,0 +1,15 @@
+| Elemento                  | Cor HEX            | Comentário                                     |
+| ------------------------- | ------------------ | ---------------------------------------------- |
+| **Fundo principal**       | `#121212`          | Preto quase absoluto, comum em dark mode limpo |
+| **Fundo secundário**      | `#1E1E1E`          | Leve contraste para containers internos        |
+| **Cartões / painéis**     | `#232323`          | Base para componentes elevados                 |
+| **Bordas sutis**          | `#2E2E2E`          | Para dividir sem poluir                        |
+| **Texto primário**        | `#E0E0E0`          | Legível, mas não branco puro                   |
+| **Texto secundário**      | `#A0A0A0`          | Menos ênfase (descrições, data, etc)           |
+| **Texto desabilitado**    | `#666666`          | Informações apagadas                           |
+| **Cor primária (botões)** | `#4F46E5` (Indigo) | Elegante, moderna, excelente contraste         |
+| **Cor secundária**        | `#10B981` (Verde)  | Confirmações, destaque, sucesso                |
+| **Cor de erro**           | `#EF4444`          | Alertas, validações                            |
+| **Cor de aviso**          | `#F59E0B`          | Alertas leves / campos incompletos             |
+| **Hover de botão**        | `#3730A3`          | Escurecido da primária                         |
+| **Scroll / detalhes UI**  | `#3A3A3A`          | Para barras de rolagem, linhas, etc            |
