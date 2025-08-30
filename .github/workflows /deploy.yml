@@ -23,9 +23,6 @@ jobs:
       - name: ⭐ Install dependencies
         run: npm install
 
-      # - name: 💬 Run Check 
-      #   run: npm run type-check
-
       - name: 🏗️ Build project 
         run: npm run build-only
 
