@@ -23,7 +23,7 @@ const amper = computed(() => device.value?.amper)
 <style scoped>
   .dps {
     background-image: url("../../assets/ref.png");
-    background-size: 70rem;
+    background-size: 1120px;
     background-repeat: no-repeat;
     background-position: -218px -139px;
     width: 64px;

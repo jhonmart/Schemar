@@ -22,7 +22,7 @@ const rotate = computed(() => device.value?.rotate)
 <style scoped>
   .conduite {
     background-image: url("../../assets/ref.png");
-    background-size: 38rem;
+    background-size: 608px;
     background-repeat: no-repeat;
     background-position: -53px -474px;
     width: 150px;

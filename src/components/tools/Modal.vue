@@ -59,7 +59,7 @@ provide('modalClose', () => {
 
 .modal-header,
 .modal-footer {
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   background: #1E1E1E;
   color: #f1f1f1;
   display: flex;
@@ -68,18 +68,18 @@ provide('modalClose', () => {
 
 .modal-header {
   justify-content: space-between;
-  padding-right: 1.5rem;
-  padding-left: 1rem; 
+  padding-right: 24px;
+  padding-left: 16px; 
 }
 
 .modal-body {
-  padding: 1rem;
+  padding: 16px;
 }
 
 .close-button {
   background: transparent;
   border: none;
-  font-size: 1.2rem;
+  font-size: 20px;
   float: right;
   cursor: pointer;
   color: #f1f1f1;

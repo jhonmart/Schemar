@@ -32,7 +32,7 @@ const mode = computed(() => device.value?.mode)
 <style scoped>
   .barramento {
     background-image: url("../../assets/ref.png");
-    background-size: 70rem;
+    background-size: 1120px;
     background-repeat: no-repeat;
     background-position: -134px -440px;
     width: 22px;

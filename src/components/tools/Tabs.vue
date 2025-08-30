@@ -60,7 +60,7 @@ const activeTab = ref(0)
 }
 
 .tab-content {
-  padding: 1rem;
+  padding: 16px;
   background: #858585ff;
 }
 </style>

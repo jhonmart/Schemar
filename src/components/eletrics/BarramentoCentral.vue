@@ -36,7 +36,7 @@
 <style scoped>
   .barramento-central {
     background-image: url("../../assets/ref.png");
-    background-size: 57rem;
+    background-size: 910px;
     background-repeat: no-repeat;
     background-position: -262px -840px;
     width: 441px;

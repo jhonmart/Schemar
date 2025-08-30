@@ -27,6 +27,6 @@
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 0 32px;
   }
 } */

@@ -45,7 +45,7 @@ const devices = getDevices(props.uuid)
     display: flex;
     align-items: center;
     background-image: url("/src/assets/ref.png");
-    background-size: 33rem 85rem;
+    background-size: 528px 1360px;
     background-position: 319px 0px;
     background-repeat: repeat-x;
     padding: 0px 25px;

@@ -25,7 +25,7 @@ const amper = computed(() => device.value?.amper)
 <style scoped>
   .dijuntor-residencial {
     background-image: url("../../assets/ref.png");
-    background-size: 70rem;
+    background-size: 1120px;
     background-repeat: no-repeat;
     background-position: -375px -438px;
     width: 116px;
