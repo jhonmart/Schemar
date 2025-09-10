@@ -3,6 +3,7 @@ import { state, onDrop, onDropAt, getDevices } from '../../stories/dock.ts'
 const myName = performance.now()
 import { modal } from '../tools/modal'
 import DetailTools from '../configs/DetailTools.vue'
+import Wires from '../eletrics/Wires.vue'
 
 
 function changeDetails(item: object) {
@@ -34,6 +35,7 @@ function changeDetails(item: object) {
     />
     <slot />
   </div>
+  <Wires />
 </template>
 
 <style scoped>
@@ -41,7 +43,7 @@ function changeDetails(item: object) {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100vid;
+    width: 100%;
     height: 1150px;
     align-items: center;
     background: #121212;

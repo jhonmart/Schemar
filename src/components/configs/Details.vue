@@ -34,8 +34,8 @@ const rotateRef = computed({
 })
 
 const limits = {
-  label: ['Dijuntor', 'Dijuntor Duplo', 'Dijuntor Residencial'].includes(props.item.name),
-  amper: ['Dijuntor', 'Dijuntor Duplo', 'Dijuntor Residencial', 'DPS'].includes(props.item.name),
+  label: ['Dijuntor', 'Dijuntor Duplo', 'Dijuntor Residencial', 'Rele Protetor Sobre/Sub'].includes(props.item.name),
+  amper: ['Dijuntor', 'Dijuntor Duplo', 'Dijuntor Residencial', 'Rele Protetor Sobre/Sub', 'DPS'].includes(props.item.name),
   mode: ['Barramento'].includes(props.item.name),
   rotation: ['Conduíte'].includes(props.item.name),
 }

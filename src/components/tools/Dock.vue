@@ -1,16 +1,6 @@
-<script>
-import { defineComponent } from 'vue'
-import Tabs from './Tabs.vue'
-
-export default defineComponent({
-  components: {
-    Tabs
-  },
-})
-</script>
-
 <script setup>
 import { getComponents, onDragStart } from '../../stories/dock.ts'
+import Tabs from './Tabs.vue'
 
 const devices = getComponents.value.filter(({ type }) => ['Device'].includes(type))
 const tools = getComponents.value.filter(({ type }) => ['Tools'].includes(type))
@@ -61,7 +51,7 @@ const tabs = [
 <style>
   .dock {
     position: fixed;
-    z-index: 300;
+    z-index: 103;
     background: #464646;
     left: 0;
     bottom: 0;
@@ -76,5 +66,6 @@ const tabs = [
   .dock-item {
     cursor: grab;
     zoom: 0.5;
+    user-select: none; 
   }
 </style>
